@@ -1,0 +1,8 @@
+Находим uid flag14
+cat /etc/passwd | grep flag14
+Скачиваем файл к себе на Linux
+scp -P 4242 level14@192.168.56.101:/bin/getflag .
+Создаем юзера с тем же uid
+useradd -u 3014 flag14
+Запускаем getflag от созданного user
+

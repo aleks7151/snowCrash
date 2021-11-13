@@ -1,0 +1,5 @@
+find / -user flag00 -group flag00 2>/dev/null
+Ищем файлы, принадлежащие flag00, отсеивая ошибки
+Читаем любой из получившихся файлов, вывод любого из них - cdiiddwpgswtgt
+Это зашифрованный текст по Rot11 https://planetcalc.ru/1434/
+Получается nottoohardhere
